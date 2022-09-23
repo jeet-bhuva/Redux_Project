@@ -1,0 +1,112 @@
+.App {
+    text-align: center;
+    box-shadow: 0px 2px 3px #223457;
+    height: auto;
+    width: auto;
+    margin: 200px;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+.remove_btn button{
+    background-color: #ffffff;
+    color: #df4e4e;
+    height: 30px;
+    width: 150px;
+    border: 2px solid;
+    border-color: #df4e4e;
+    font-size: 15px;
+    font-style: oblique;
+    font: inherit;
+    box-shadow: 1px 2px 3px #282c34;
+    border-radius: 5px;
+
+}
+.remove_btn button:hover{
+    background-color: #df4e4e;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 1px 2px 3px #282c34;
+    font: inherit;
+
+}
+
+.additem button{
+    background-color: #ffffff;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #282c34;
+    font-style: oblique;
+    font-size: 15px;
+    border: 2px solid;
+    color: #4adc69;
+    height: 30px;
+    width: 80px;
+    font: inherit;
+
+}
+
+.additem button:hover{
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 1px 2px 3px #282c34;
+    background-color: #4adc69; 
+    font: inherit;
+    border: none;
+}
+
+.additem input{
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.titel{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #282c34;
+    text-shadow: 1px 2px 3px #4f74be;
+}
+
+
+.titel1{
+    margin: 30px;
+    margin-top: -3%;
+}
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
